@@ -1,3 +1,10 @@
+import {
+  AIPicker,
+  ColorPicker,
+  CustomButton,
+  FilePicker,
+  Tab,
+} from '../components';
 import { AnimatePresence, motion } from 'framer-motion';
 import { DecalTypes, EditorTabs, FilterTabs } from '../config/constants';
 import { downloadCanvasToImage, reader } from '../config/helpers';
